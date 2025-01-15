@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const DemoVideo = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
@@ -13,11 +13,18 @@ const DemoVideo = () => {
   };
 
   return (
-    <section className="demo-video">
+    <section className="demo-video" id="demo_video">
       <div className="container">
         <h2>Watch Severity AI in Action</h2>
-        <p>See how our AI-powered vulnerability detection can transform your development workflow.</p>
-        <div className={`video-container ${videoLoaded ? 'loaded' : ''} ${videoEnded ? 'ended' : ''}`}>
+        <p>
+          See how our AI-powered vulnerability detection can transform your
+          development workflow.
+        </p>
+        <div
+          className={`video-container ${videoLoaded ? "loaded" : ""} ${
+            videoEnded ? "ended" : ""
+          }`}
+        >
           <video
             controls
             width="100%"
@@ -25,7 +32,10 @@ const DemoVideo = () => {
             onLoadedData={handleVideoLoad}
             onEnded={handleVideoEnd}
           >
-            <source src={`${process.env.PUBLIC_URL}/videos/demo-video.mp4`}  type="video/mp4" />
+            <source
+              src={`${process.env.PUBLIC_URL}/videos/demo-video.mp4`}
+              type="video/mp4"
+            />
             Your browser does not support the video tag.
           </video>
           {!videoLoaded && (
