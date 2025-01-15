@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/severity-ai-website/static/css/main.6a1e0866.css",
-    "main.js": "/severity-ai-website/static/js/main.05b486a4.js",
+    "main.js": "/severity-ai-website/static/js/main.f3f7ca16.js",
     "index.html": "/severity-ai-website/index.html",
     "main.6a1e0866.css.map": "/severity-ai-website/static/css/main.6a1e0866.css.map",
-    "main.05b486a4.js.map": "/severity-ai-website/static/js/main.05b486a4.js.map"
+    "main.f3f7ca16.js.map": "/severity-ai-website/static/js/main.f3f7ca16.js.map"
   },
   "entrypoints": [
     "static/css/main.6a1e0866.css",
-    "static/js/main.05b486a4.js"
+    "static/js/main.f3f7ca16.js"
   ]
 }
